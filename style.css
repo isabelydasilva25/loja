@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    grid-template-areas: 
+     "cabeca cabeca cabeca"
+     "lateral lateral lateral"
+     "pe pe pe";
+     grid-template-columns: auto;
+     grid-auto-rows: auto 300px auto auto
+
+}
+
+header{
+    grid-area: cabeca;
+    background-color: azure;
+}   
+aside{
+    grid-area: lateral;
+    background-color: cadetblue;
+
+}
+
+main{
+    grid-area: meio;
+    background-color: aliceblue;
+}
+
+footer{
+    grid-area: pe;
+    background-color: aquamarine;
+}
+@media  screen and (max-width: 800px){
+    body{
+        grid-template-areas:
+        "cabeca"
+        "lateral"
+        "meio"
+        "pe";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        
+    }
+
+}
+    
