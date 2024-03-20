@@ -21,7 +21,7 @@ aside{
 
 main{
     grid-area: meio;
-    background-color: aliceblue;
+    background-color: blue;
 }
 
 footer{
@@ -40,5 +40,16 @@ footer{
         
     }
 
+}
+
+.elementomae{
+    border: 2px blue;
+    display: flex;
+}
+
+.caixa{
+    border: 2px red
+    width: 80px;
+    height: 80px;
 }
     
