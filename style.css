@@ -17,7 +17,7 @@ header{
 }   
 aside{
     grid-area: lateral;
-    background-color: cadetblue;
+    background-color: dodgerblue;
 
 }
 main{
@@ -69,12 +69,12 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(76, 76, 170);
+    background-color: rgb(40, 124, 192);
     transition: 0.5s;
 }
 .img_card{
-    width: 220px;
-    height: 240px;
+    width: 210px;
+    height: 230px;
 
 }
 
@@ -86,13 +86,38 @@ footer{
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: aqua;
+    color: rgb(0, 195, 255);
     transition: 1s;
 }
 .card a:hover{
-    background-color: rgb(107, 224, 224);
+    background-color: rgb(107, 162, 224);
     color: blue;
 }
+
+header nav li{
+    display:inline
+}
+
+header nav{
+    
+    border:2px aquamarine;
+    position:absolute;
+    right: 30px;
+    top: 30px;
+    
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(72, 211, 211);
+    padding: 5px;
+}
+
+
+
+
 
 
 
