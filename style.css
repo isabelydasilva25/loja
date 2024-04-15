@@ -17,7 +17,7 @@ header{
 }   
 aside{
     grid-area: lateral;
-    background-color: dodgerblue;
+    background-color: rgb(125, 186, 247);
 
 }
 main{
