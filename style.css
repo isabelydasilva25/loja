@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: grid;
     grid-template-areas: 
@@ -115,6 +119,21 @@ header nav a{
 header nav a:hover{
     background-color: rgb(68, 181, 216);
 }
+
+@media only screen and (width-max:400px){
+  body{
+    display: grid;
+    grid-template-areas:
+    "cabe"
+    "prin"
+    "roda";
+    grid-template-columns: auto;
+    grid-template-rows: 200px 800px 200px;
+    }
+
+}
+
+
 
 
 
