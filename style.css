@@ -133,6 +133,19 @@ header nav a:hover{
 
 }
 
+.nav_mobile{
+    position: absolute;
+    width: 300px;
+}
+
+.menu_copi{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index:1;
+}
+
 
 
 
