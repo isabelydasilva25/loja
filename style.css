@@ -146,7 +146,9 @@ header nav a:hover{
     z-index:1;
 }
 
-
+.form-group{
+    font-size: large;
+}
 
 
 
