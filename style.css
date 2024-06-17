@@ -38,7 +38,7 @@ footer{
 
 
 .logo{
-    width: 280px;
+    width: 260px;
 }
 
 
@@ -148,6 +148,10 @@ header nav a:hover{
 
 .form-group{
     font-size: large;
+}
+.formulario{
+    width: 400px;
+    text-align: right;
 }
 
 

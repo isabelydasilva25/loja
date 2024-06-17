@@ -1,7 +1,4 @@
-{
-  margin:0;
-  padding:0;
-}
+
 
 body{
   display: grid;
@@ -47,15 +44,15 @@ footer{
 }
 
 .img_card{
-  width: 210px;
+  width: 200px;
   height: 230px;
 }
   .card a{
     border-radius: 30px;
     background-color: blue;
     display: block;
-    height: 30px;
-    width: 120px;
+    height: 60px;
+    width: 150px;
     text-align: center;
     text-decoration: none;
     color: rgb(0, 195, 255);
@@ -73,4 +70,12 @@ main button{
   border-radius: 7px;
   margin: 5px;
   border: none;
+}
+
+.logo{
+  width: 250px;
+}
+.carrinho{
+  font-size: 30px;
+  font-weight: 800;
 }
